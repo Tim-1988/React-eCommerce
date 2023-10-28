@@ -1,0 +1,29 @@
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.addToCartBtn{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.addToCartBtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
